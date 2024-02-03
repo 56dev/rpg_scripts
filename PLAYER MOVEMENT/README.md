@@ -12,17 +12,13 @@ true_position is strange naming by me, I'll concur, but it is basically the posi
 The signal functions (on_detector_xxxx_body_entered/exited) are meant to be connected to certain colliders surrounding the player.
 You will probably have to delete them and regenerate them by creating the above-mentioned colliders.
 
-  (3)
-(2)O (0)
-  (1)
-
-The O is the player, and the parenthesized numbers are the colliders. Please arrange it in that way.
-
 The numbering is quite important. Remember, 
 - 0 = right
 - 1 = down
 - 2 = left
 - 3 = up
+
+Right and left are oriented based on YOUR point of view.
 
 Remember this when setting the values of the _dir_collisions_bit_array. true if a collider enters, false if otherwise.
 
