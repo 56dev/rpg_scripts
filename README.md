@@ -5,3 +5,5 @@ Additionally stored are some instructions on how to properly integrate these scr
 
 **List of behaviors in here:**
 - Smooth, pokemon-style top-down RPG movement with collision detection.
+
+
